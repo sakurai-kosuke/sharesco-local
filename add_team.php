@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>シェアスコ 試合結果共有サービス</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 </head>
 <body>
 <form action="regist.php" method="post">

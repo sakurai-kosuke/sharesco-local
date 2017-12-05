@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("localhost", "root", "", "sports");
+$mysqli = new mysqli("localhost", "jockrock", "", "sharesco");
 
 if ($mysqli->connect_error) {
 	echo $mysqli->connect_error;
@@ -18,6 +18,7 @@ if ($mysqli->connect_error) {
 <body>
 試合結果共有サービス<br>
 <font size="6">シェアスコ</font><br>
+<a href="mail.html" method="post">大会を作成する</a>
 <a href="add_team.php" method="post">チームを登録する</a>
 <form action="index.php" method="post">
     <br>
